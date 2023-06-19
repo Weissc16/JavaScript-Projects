@@ -6,5 +6,5 @@ window.alert("what is the value of 3 + 3?")
 //this creates a pop up window stating "what is the value of 3 + 3?"
 
 document.write( 3 + 3)
-//this is the expression giving the value of 3 + 3, but not sure how to get it it's own line just yet.
+//this is a statement containing an expression giving the value of 3 + 3, but not sure how to get it it's own line just yet.
 

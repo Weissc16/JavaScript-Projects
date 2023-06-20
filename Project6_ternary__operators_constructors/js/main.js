@@ -57,3 +57,4 @@ function nest_Function() {
         return Starting_point;
     }
 }
+//nested function of "Plus_One()".  This function is called on when the Count Function is used.

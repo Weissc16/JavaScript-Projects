@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./CSS/CSS_1.css"></style>
+    </head>
+    <body>
+        <h2>HTML Form</h2>
+        <div>
+            <!-- Create Form -->
+            <form name="myForm" onsubmit="return validateForm()" method="post">
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+            <!--End Form
+            - <form action> will send the submitted data to that location
+            - <label> - defines a label
+                -for - equal to the id attribute of the <input> element
+            - <input> - interactive controls for forms
+                -type - how to display the input
+                -id - identifier for the input value (unique)
+                -name - defines the name of an element (not unique)
+                -value - specifies an initial value for an input field -->
+
+        </div>
+        <script src="./JavaScript/JavaScript_1.js"></script>
+    </body>
+</html>

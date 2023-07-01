@@ -1,18 +1,18 @@
 #menuBG {
-    width: 400px;
+    width: 600px;
     height: 470px;
     margin: 10px auto;
 }
 
 #frmMenu {
-    width: 400px;
+    width: 600px;
     height: 200px;
 }
 
 #totalPrice {
     width: 200px;
     height: 190px;
-    margin: 0 auto;
+    margin: 20px auto;
     float: right;
 }
 
@@ -28,6 +28,12 @@
     float: right;
 }
 
+.middle {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
 #cart {
     top: 0;
     margin: 0px auto;
@@ -36,7 +42,7 @@
 }
 
 #btnOrder {
-    margin: 10px 0px 0px 100px;
+    margin: 10px 0px 0px 185px;
     width: 100px;
     height: 40px;
 }
@@ -50,12 +56,14 @@ body {
 
 h1 {
     font-family: 'Gill Sans';
-    color: yellow;
+    color: Yellow;
+    text-align: center;
+    
 }
 
 h3 {
     font-family: 'Geneva';
-    color: yellow;
+    color: darkslategray;
     font-weight: bolder;
 }
 

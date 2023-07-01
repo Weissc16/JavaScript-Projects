@@ -35,7 +35,7 @@ function getTopping(runningTotal, text1) {
     var selectedTopping = []
     var toppingArray = document.getElementsByClassName("toppings");
     for(var j = 0; j < toppingArray.length; j++) {
-        if (toppingArray[i].checked) {
+        if (toppingArray[j].checked) {
             selectedTopping.push(toppingArray[j].value);
             console.log("selected topping item: ("+toppingArray[j].value+")");
             text1 = text1+toppingArray[j].value+"<br>";

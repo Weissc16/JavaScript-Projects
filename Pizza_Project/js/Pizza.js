@@ -55,3 +55,11 @@ function getTopping(runningTotal, text1) {
     document.getElementById("showText").innerHTML=text1;
     document.getElementById("totalPrice").innerHTML = "<h3>Total: <strong>$"+runningTotal+".00"+"</strong></h3>";
 };
+
+function validateForm() {
+    x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("Name must be entered!");
+        return false;
+    }
+}

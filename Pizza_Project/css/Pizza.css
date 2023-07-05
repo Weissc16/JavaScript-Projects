@@ -58,7 +58,15 @@ h1 {
     font-family: 'Gill Sans';
     color: Yellow;
     text-align: center;
+    font-size: 5vw;
+    opacity: 1;
+    transition: 1s opacity;
     
+}
+
+h1.fade-out {
+    opacity: 0;
+    transition: none;
 }
 
 h3 {
